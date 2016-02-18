@@ -1,7 +1,7 @@
 # Raspberry Pi - Install Arch Linux and WiFi
-A guide to install Arch Linux ARM on a Raspberry Pi device, by Johnny Sprada
+A guide to install Arch Linux ARM on a Raspberry Pi or Raspberry Pi 2 device, by Johnny Sprada
 
-This guide assumes you have a Linux host computer to set up your Micro SD card.
+This guide assumes you have a Linux host computer to set up your Micro SD card on.
 
 ## Install system to microSD card:
 Insert your SD card into the appropriate USB adapter in your host computer.
