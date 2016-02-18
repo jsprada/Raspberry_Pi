@@ -25,7 +25,7 @@ Locate the name that your system assigned the SD card:
     ├─sdd1   8:49   1   128M  0 part
     └─sdd2   8:50   1  29.8G  0 part
 
-In my example above, my SD card is called `sdd`  which is located at `\dev\sdd`   You MUST double check the name of this device because we're going to erase it.   If you accidentally use the wrong device name, you risk erasing any of your hard disks.  You've been warned!  Use the follwoing process to identify the name of your device.
+In my example above, my SD card is called `sdd`  which is located at `\dev\sdd`   You MUST double check the name of this device because we're going to erase it.   If you accidentally use the wrong device name, you risk erasing any of your hard disks.  You've been warned!  Use the following process to identify the name of your device.
 
 To double check it, remove your SD card, and list your block devices again:
 
@@ -76,7 +76,7 @@ Note: Double check, and triple check that you're using the correct device.
 
 * Type `o`. This will clear out any partitions on the drive.
 * Type `p` to list partitions. There should be no partitions left.
-* Type `n` for new, then `p` `for primary, `1` for the first partition on the drive, press `ENTER`  to accept the default first sector, then type ``+100M` for the last sector.
+* Type `n` for new, then `p` for primary, `1` for the first partition on the drive, press `ENTER`  to accept the default first sector, then type ``+100M` for the last sector.
 * Type `t`, then c to set the first partition to type `W95 FAT32 (LBA)`.
 * Type `n` for new, then `p` for primary, `2` for the second partition on the drive, and then press `ENTER` twice to accept the default first and last sector.
 * Write the partition table and exit by typing `w`.
