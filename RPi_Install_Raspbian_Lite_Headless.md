@@ -3,7 +3,7 @@ By: Johnny Sprada 11/13/2018
 
 ## Objectives
 ### Primary Objective:
-Use a Linux host computer to set up a fresh Raspberry Pi that can be used as headless server. over wifi.
+Use a Linux host computer to set up a fresh Raspberry Pi that can be used as headless server over wifi.
 
 It should be noted that this basic configuration is intended to build a device for internal use only.  It should not be exposed to the open Internet unless it's first hardened.   We will not be making any security configurations during this procedure.  If there's demand for hardening a Raspberry Pi for public use, let me know and I'll build a guideline for doing that.
 
